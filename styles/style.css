@@ -1,0 +1,63 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.cabecalho {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.cabecalho .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.cabecalho .logo h2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #3A404E;
+}
+.cabecalho .navbar {
+  align-self: center;
+}
+.cabecalho .navbar .navbar__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+.cabecalho .navbar .navbar__list .list-link a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--gray-500, #667085);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.cabecalho .botoes-logar .botao {
+  background: #ffffff;
+  border: none;
+}
+.cabecalho .botoes-logar .botao .botao-link {
+  color: var(--gray-500, #667085);
+}
+.cabecalho .botoes-logar button {
+  border-radius: 8px;
+  padding: 10px 18px;
+  border: 1px solid #8e2424;
+  background: #8e2424;
+}
+.cabecalho .botoes-logar button a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
