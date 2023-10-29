@@ -1,0 +1,70 @@
+@import '../abstract/variaveis';
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        h2 {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+            color: $cor-texto-logo;
+        }
+    }
+
+    .container__navbar {
+        align-self: center;
+
+        .navbar__list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.5rem;
+
+            .list-link {
+                a {
+                    text-align: center;
+                    text-decoration: none;
+                    color: var(--gray-500, $cor-texto-link);
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+    .botoes-logar {
+        .botao {
+            background: $cor-branco-base;
+            border: none;
+
+            .botao-link {
+                color: var(--gray-500, $cor-texto-link);
+            }
+        }
+
+        button {
+            border-radius: 8px;
+            padding: 10px 18px;
+            border: 1px solid $cor-button-logar;
+            background: $cor-button-logar;
+
+            a {
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                color: $cor-branco-base;
+                text-decoration: none;
+            }
+        }
+    }
+}
