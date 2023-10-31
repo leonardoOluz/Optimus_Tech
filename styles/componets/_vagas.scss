@@ -3,7 +3,7 @@
 .vagas {
     margin: 8rem 0;
 
-    .secao-talentos {
+    .secao__talentos {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -42,6 +42,54 @@
             width: 90%;
             height: 25rem;
             flex-shrink: 0;
+        }
+    }
+
+    .secao__vagas-abertas {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 3rem;
+
+        .vagas-abertas {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin: auto;
+
+            .vagas__abertas-titulo {
+                color: $cor-titulo-about;
+                font-size: 1.25rem;
+                font-weight: 500;
+                line-height: 30px;
+            }
+
+            .container__job-post {
+                width: 100%;
+                margin: .4rem;
+                border-radius: 8px;
+                border: solid 1px $cor-borda-vagas;
+                padding: 2rem 1rem;
+
+                .job-post-titulo {
+                    font-size: 1.125rem;
+                    line-height: 28px;
+                    color: $cor-titulo-about;
+                }
+
+                .descricao {
+                    display: flex;
+                    gap: 1rem;
+
+                    .texto {
+                        padding-top: 2rem;
+                        color: $cor-texto-about;
+                        font-weight: 500;
+
+                    }
+                }
+            }
         }
     }
 }
