@@ -52,11 +52,7 @@
         }
 
         button {
-            border-radius: 8px;
-            padding: 10px 18px;
-            border: 1px solid $cor-button-logar;
-            background: $cor-button-logar;
-
+            @include button;
             a {
                 font-size: 16px;
                 font-style: normal;

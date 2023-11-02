@@ -1,0 +1,61 @@
+@import '../abstract/variaveis';
+
+.footer__formulario {
+    text-align: center;
+    background-color: $cor-fundo-footer;
+    padding: 6rem;
+    margin-top: 4rem;
+
+    .form__footer {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        h2 {
+            font-size: 2.25rem;
+            line-height: 44px;
+            font-weight: 600;
+            letter-spacing: -0.72px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            color: $cor-texto-about;
+        }
+
+        .foote-button {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            padding-top: 1rem;
+
+            input {
+                width: 30%;
+                border-radius: 8px;
+                border: 1px solid $cor-border-input;
+                &::placeholder{
+                    padding-left: 1rem;
+                    color: $cor-texto-about;
+                }
+            }
+
+            button {
+                @include button;
+                font-size: 14px;
+                color: $cor-branco-base;
+            }
+        }
+
+
+        .copy {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color: $cor-copy;
+        }
+
+    }
+
+}
